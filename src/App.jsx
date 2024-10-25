@@ -1,15 +1,14 @@
-// src/App.js
 import React from 'react';
-import NavBar from './components/navBar';
+import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
 
-
-const App = () => {
+function App() {
     return (
-        <div>
-            <NavBar />
-            <h1>DiTech</h1>
-        </div>
+    <div>
+        <NavBar />
+        <ItemListContainer greeting="¡Bienvenido a nuestra tienda!" />
+    </div>
     );
-};
+}
 
 export default App;
