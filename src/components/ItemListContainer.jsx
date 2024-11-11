@@ -16,14 +16,14 @@ const ItemListContainer = ({ greeting }) => {
                 { id: 6, name: "Memoria Ram Notebook Hiksemi Hiker DDR3 4Gb 1600Mhz", categoria: "Componentes PC" },
                 { id: 7, name: "SILLA GAMER COOLERMASTER R2C COOLIN FABR", categoria: "Sillas" },
                 { id: 8, name: "SILLA GAMER RAIDMAX DK 925 NEGRA", categoria: "Sillas" },
-                { id: 9, name: "SILLA GAMER COOLERMASTER BLACK HYBRID 1 ERGO", categoria: "Sillas" },
+                { id: 9, name: "Camioneta", categoria: "Sillas" },
             ];
 
-            const filteredItems = categoriaId
+            const producto = categoriaId
                 ? prodcutos.filter(item => item.categoria === categoriaId)
                 : prodcutos;
 
-            setItems(filteredItems);
+            setItems(producto);
         };
 
         fetchData();
