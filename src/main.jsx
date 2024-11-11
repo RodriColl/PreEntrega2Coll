@@ -4,6 +4,8 @@ import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './components/navBar.css'
 import './components/cart.css'
+import './components/ItemDetailContainer.css'
+import './components/ItemListContainer.css'
 
 
 createRoot(document.getElementById('root')).render(

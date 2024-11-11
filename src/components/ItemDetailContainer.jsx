@@ -30,7 +30,7 @@ const ItemDetailContainer = () => {
         <div className="container">
             {itemDetail ? (
                 <>
-                    <h2>{itemDetail.name}</h2>
+                    <h2 className="nombreProducto">{itemDetail.name}</h2>
                     <p>{itemDetail.descripcion}</p>
                 </>
             ) : (

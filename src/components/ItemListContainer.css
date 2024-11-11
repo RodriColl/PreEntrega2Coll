@@ -1,0 +1,9 @@
+.saludo {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    font-size: 25px;
+    color: #00cafd;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
