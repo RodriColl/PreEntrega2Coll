@@ -1,0 +1,13 @@
+.carrito {
+    color: white;
+    display: flex;
+    font-size: 25px;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.saludo {
+    margin-top: 20px;
+    font-size: 25px;
+    color: #0083fd;
+}

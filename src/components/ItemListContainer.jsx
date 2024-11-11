@@ -1,5 +1,7 @@
 import React from 'react';
-import './componentes.css';
+import './navBar.css';
+import './cart.css';
+
 
 const ItemListContainer = ({ greeting }) => {
   return (

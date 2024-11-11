@@ -13,7 +13,7 @@
 
 .nav_name {
     padding: 20px;
-    color: aqua;
+    color: rgb(0, 255, 179);
     font-style: italic;
     font-size: 2.5rem;
     font-weight: bold;
@@ -37,16 +37,3 @@
     text-transform: uppercase;
 }
 
-.carrito {
-    color: white;
-    display: flex;
-    font-size: 25px;
-    margin-top: 20px;
-    padding-right: 20px;
-}
-
-.saludo {
-    margin-top: 20px;
-    font-size: 25px;
-    color: #0083fd;
-}
