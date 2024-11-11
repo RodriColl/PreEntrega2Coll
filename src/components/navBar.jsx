@@ -11,13 +11,13 @@ const NavBar = () => {
                 </div>
                 <ul className="nav_list">
                     <li>
-                        <Link to="/category/pc-armadas" className="nav_link">PC Armadas</Link>
+                        <Link to="/categoria/pc-armadas" className="nav_link">PC Armadas</Link>
                     </li>
                     <li>
-                        <Link to="/category/componentes-pc" className="nav_link">Componentes PC</Link>
+                        <Link to="/categoria/componentes-pc" className="nav_link">Componentes PC</Link>
                     </li>
                     <li>
-                        <Link to="/category/sillas-gamers" className="nav_link">Sillas</Link>
+                        <Link to="/categoria/sillas-gamers" className="nav_link">Sillas</Link>
                     </li>
                 </ul>
                 <div>
