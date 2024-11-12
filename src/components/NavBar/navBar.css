@@ -11,6 +11,7 @@ body {
     background-color: #118ee0;
     height: 100px;
     padding: 1rem;
+    padding-right: 1rem;
     justify-content: space-between;
 }
 
