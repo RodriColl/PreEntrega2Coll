@@ -13,6 +13,7 @@ body {
     padding: 1rem;
     padding-right: 1rem;
     justify-content: space-between;
+    border-radius: 10px;
 }
 
 .nav_name {
